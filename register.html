@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BlueHorizon.app</title>
+
+        <link rel="stylesheet" href="regstyle.css">
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body>
+        <span class="bgwrapper">
+            <span class="wrapper">
+                <form action="register.php" method="post">
+                    <h1>Sign Up</h1>
+                    <div class="input-box">
+                        <label for="email">
+                            <i class='bx bxs-envelope'></i>
+                        </label>
+                        <input type="email" name="email" placeholder="Email" id="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="username">
+                            <i class='bx bxs-user'></i>
+                        </label>
+                        <input type="text" name="username" placeholder="Username" id="username" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">
+                            <i class='bx bxs-lock'></i>
+                        </label>
+                        <input type="password" name="password" placeholder="Password" id="password" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">
+                            <i class='bx bxs-lock'></i>
+                        </label>
+                        <input type="password" name="password" placeholder="Confirm Password" id="password" required>
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                    <div class="Login-link">
+                        <p>Already have an account? <a href="login.html">Login</a></p>
+                    </div>
+                </form>
+            </span>
+        </span>
+    </body>
+</html>
